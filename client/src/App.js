@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import 'antd/dist/reset.css';
-import '../assets/css/general.css';
+import './assets/css/general.css';
 import { Layout } from 'antd';
 import { Routes, Route } from 'react-router-dom';
-import Hedear from './generic/Header';
-import Footer from './generic/Footer';
-import Sidebar from './generic/Sidebar';
-import DashboardLogin from './generic/DashboardLogin';
-import DashboardSignup from './generic/DashboardSignup';
-import ContactForm from './users/AddUsers';
-import UserList from './users/ListUsers';
+import Hedear from './components/generic/Header';
+import Footer from './components/generic/Footer';
+import Sidebar from './components/generic/Sidebar';
+import DashboardLogin from './components/generic/DashboardLogin';
+import DashboardSignup from './components/generic/DashboardSignup';
+import ContactForm from './components/users/AddUsers';
+import UserList from './components/users/ListUsers';
 
 const { Content } = Layout;
 
@@ -116,3 +116,4 @@ export default App;
 // }
 
 // export default App;
+// git push origin master
